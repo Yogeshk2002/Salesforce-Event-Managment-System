@@ -1,0 +1,62 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Event__c",
+                "referenceId": "Event__cRef1"
+            },
+            "Name": "ABC",
+            "Attendees__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Attendee__c",
+                            "referenceId": "Attendee__cRef1"
+                        },
+                        "Name": "Dipak"
+                    }
+                ]
+            },
+            "Sponsors__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Sponsor__c",
+                            "referenceId": "Sponsor__cRef1"
+                        },
+                        "Name": "Alice Johnson"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Event__c",
+                "referenceId": "Event__cRef2"
+            },
+            "Name": "ABC2",
+            "Attendees__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Attendee__c",
+                            "referenceId": "Attendee__cRef2"
+                        },
+                        "Name": "Dinesh"
+                    }
+                ]
+            },
+            "Sponsors__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Sponsor__c",
+                            "referenceId": "Sponsor__cRef2"
+                        },
+                        "Name": "David Kim"
+                    }
+                ]
+            }
+        }
+    ]
+}
