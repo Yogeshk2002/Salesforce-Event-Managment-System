@@ -1,0 +1,50 @@
+<template>
+    <lightning-card title="Event Registration">
+        <div class="slds-p-around_medium">
+
+            <lightning-input
+                label="Attendee Name"
+                value={attendeeName}
+                onchange={handleNameChange}
+                required>
+            </lightning-input>
+
+            <lightning-input
+                label="Email"
+                type="email"
+                value={email}
+                onchange={handleEmailChange}
+                required>
+            </lightning-input>
+
+            <lightning-combobox
+                label="Select Event"
+                options={eventOptions}
+                value={eventId}
+                onchange={handleEventChange}
+                placeholder="Choose an Event"
+                required>
+            </lightning-combobox>
+
+            <div class="slds-m-top_medium">
+                <lightning-button
+                    variant="brand"
+                    label="Register"
+                    onclick={handleRegister}>
+                </lightning-button>
+            </div>
+
+            <template if:true={successMessage}>
+                <p class="slds-text-color_success slds-m-top_medium">
+                    {successMessage}
+                </p>
+            </template>
+
+            <template if:true={errorMessage}>
+                <p class="slds-text-color_error slds-m-top_medium">
+                    {errorMessage}
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
