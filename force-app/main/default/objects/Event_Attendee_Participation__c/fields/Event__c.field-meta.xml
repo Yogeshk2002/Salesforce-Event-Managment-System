@@ -3,8 +3,8 @@
     <fullName>Event__c</fullName>
     <label>Event</label>
     <referenceTo>Event__c</referenceTo>
-    <relationshipLabel>Sponsors</relationshipLabel>
-    <relationshipName>Sponsors</relationshipName>
+    <relationshipLabel>Event Attendee Participations</relationshipLabel>
+    <relationshipName>Event_Attendee_Participations</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>

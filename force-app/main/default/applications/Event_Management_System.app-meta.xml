@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -15,6 +14,8 @@
     <label>Event Management System</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <uiType>Lightning</uiType>    
-    
+    <tabs>Attendee__c</tabs>
+    <tabs>Event__c</tabs>
+    <tabs>Sponsor__c</tabs>
+    <uiType>Lightning</uiType>
 </CustomApplication>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>No_Registration_Before_Event_Date</fullName>
+    <fullName>No_Registration_After_Event_Date</fullName>
     <active>true</active>
     <errorConditionFormula>Registration_Date__c &gt; Event__r.Event_Date__c</errorConditionFormula>
     <errorMessage>Registration Date must be before Event Date.</errorMessage>

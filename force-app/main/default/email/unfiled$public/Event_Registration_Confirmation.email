@@ -1,0 +1,11 @@
+Hello {!Attendee__c.Name},
+
+Thank you for registering for the event.
+
+Event Details:
+Event Name: {!Attendee__c.Event__c}
+
+We look forward to seeing you!
+
+Regards,
+Event Management Team

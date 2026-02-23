@@ -29,6 +29,11 @@
                 <default>false</default>
                 <label>Virtual</label>
             </value>
+            <value>
+                <fullName>Withdraw</fullName>
+                <default>false</default>
+                <label>Withdraw</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Sponsorship_Amount__c</fullName>
+    <label>Total Sponsorship Amount</label>
+    <summarizedField>Sponsor__c.Sponsorship_Amount__c</summarizedField>
+    <summaryForeignKey>Sponsor__c.Event__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

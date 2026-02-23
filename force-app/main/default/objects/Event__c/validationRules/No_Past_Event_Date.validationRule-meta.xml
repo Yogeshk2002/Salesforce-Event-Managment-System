@@ -3,5 +3,6 @@
     <fullName>No_Past_Event_Date</fullName>
     <active>true</active>
     <errorConditionFormula>Event_Date__c &lt; TODAY()</errorConditionFormula>
+    <errorDisplayField>Event_Date__c</errorDisplayField>
     <errorMessage>Event Date cannot be in the past.</errorMessage>
 </ValidationRule>

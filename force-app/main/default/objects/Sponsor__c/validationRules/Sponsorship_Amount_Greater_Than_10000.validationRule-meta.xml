@@ -2,6 +2,10 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Sponsorship_Amount_Greater_Than_10000</fullName>
     <active>true</active>
-    <errorConditionFormula>Sponsorship_Amount__c &lt; 10000</errorConditionFormula>
+    <errorConditionFormula>AND(
+   ISNEW(),
+   Sponsorship_Amount__c &lt; 10000
+)</errorConditionFormula>
+    <errorDisplayField>Sponsorship_Amount__c</errorDisplayField>
     <errorMessage>Sponsorship Amount must be at least 10,000.</errorMessage>
 </ValidationRule>
