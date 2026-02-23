@@ -15,7 +15,7 @@ export default class EventRegistrationForm extends LightningElement {
     @wire(getEvents)
     wiredEvents({ error, data }) {
         if (data) {
-            this.eventOptions = data.map(event => {
+            this.eventOptions = data.map(event => { 
                 return { label: event.Name, value: event.Id };
             });
         } else if (error) {

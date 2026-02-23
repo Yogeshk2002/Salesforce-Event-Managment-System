@@ -1,3 +1,15 @@
 <template>
-    
+    <lightning-card title="Sponsor Dashboard">
+
+        <lightning-datatable
+            key-field="Id"
+            data={eventData}
+            columns={columns}>
+        </lightning-datatable>
+
+        <div class="slds-box slds-m-top_medium">
+            <b>Total Impact:</b> {totalImpact}
+        </div>
+
+    </lightning-card>
 </template>
