@@ -8,7 +8,7 @@ global with sharing class EventRestService {
             SELECT Id, Name, Event_Date__c, Event_Status__c
             FROM Event__c
             WHERE Event_Status__c = 'Upcoming'
-            ORDER BY Event_Date__c ASC            
+            ORDER BY Event_Date__c ASC
         ];
 
         List<EventWrapper> result = new List<EventWrapper>();
@@ -30,6 +30,3 @@ global with sharing class EventRestService {
         public Date eventDate;
     }
 }
-
-
-
